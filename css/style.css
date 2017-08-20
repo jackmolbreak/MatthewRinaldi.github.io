@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, Arial, Courier;
+  font-family: Arial, Courier, sans-serif;
   font-fize: 15px;
   line-hight:1.5;
   padding:0;
@@ -85,10 +85,10 @@ header a:hover{
 }
 
 #main .project-box{
-  float: left;
+  float: right;
   width: 40%;
   padding: 15px;
-  text-align:right;
+  text-align:left;
 }
 
   #main .project-box img{
