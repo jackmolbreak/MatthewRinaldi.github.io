@@ -84,6 +84,21 @@ header a:hover{
 
 }
 
+#main .project-box{
+  float: right;
+  width: 40%auto;
+  padding: 15px;
+  text-align:right;
+}
+
+  #main .project-box img{
+    width: 200px;
+  }
+
+
+
+
+
 #boxes .box{
   float:left;
   width: 30%;
