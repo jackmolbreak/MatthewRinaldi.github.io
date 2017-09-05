@@ -111,7 +111,7 @@ header a:hover{
   width: 120px;
 }
 
-.overlay {
+#boxes .overlay {
   position: relative;
   width: 120px;
   height: 120px;
@@ -122,11 +122,11 @@ header a:hover{
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+#boxes .container:hover .overlay {
   height: 100%;
 }
 
-.text {
+#boxes .text {
   white-space: nowrap; 
   color: white;
   font-size: 20px;
