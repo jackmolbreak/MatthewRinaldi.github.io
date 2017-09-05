@@ -23,7 +23,7 @@ header{
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom:#58FA82 3px solid;
+  border-bottom:#48B0BF 3px solid;
 }
 
 header a{
@@ -116,5 +116,5 @@ footer{
   margin-top: 20px;
   text-align: center;
   color: #ffffff;
-  background-color: #58FA82
+  background-color: #48B0BF
 }
