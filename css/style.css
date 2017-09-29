@@ -111,21 +111,6 @@ header a:hover{
   width: 120px;
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 120px;
-  height: 120px;
-  transition: .5s ease;
-}
-
-.boxes:hover .overlay {
-  height: 100px;
-}
 
 #boxes .text {
   white-space: nowrap; 
