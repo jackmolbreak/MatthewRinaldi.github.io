@@ -1,42 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Responsive Blogs Using HTML5 and CSS3</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Matthew Rinaldi's first try at a website">
+    <meta name ="author" content="Matthew Rinaldi">
+    <title>makjjr : Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   </head>
   <body>
-<div id="wrapper">
-  <header id="header">
-    <h1>This is a Responsive Blogs Using HTML5 and CSS3</h1>
-    <nav class="navigation">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-    <div id="content" class="clearfix">
-      <section id="left-sidebar">
-        <p>Left Sidebar Content Goes Here</p>
-      </section>
-             
-      <section id="right">
-        <p>Right Side Content Goes Here</p>
-      </section>
-    </div>
-         
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class = "highlight">makjjr</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li class = "current"><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Matthew Rinaldi</h1>
+        <p>Hello! I am a Lake Norman Highschool senior, who is hopeful to major in Computer Science or Electrical Engineering. You can view my resume and some of my projects I've been working on in the above links.</p>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class ="container">
+        <div class = "box">
+          <img src="./img/gpa.png">
+          <h3>SAT</h3>
+          <p>On my most recent SAT, I got a score of 1390, also with no superscoring.</p>
+        </div>
+        <div class = "box">
+          <img src="./img/act.png">
+          <h3>ACT</h3>
+          <p>On my first ACT exam, I recieved a 33, with no superscoring.</p>
+        </div>
+        <div class = "box">
+          <img src="./img/gpa1.png">
+          <h3>GPA</h3>
+          <p>I have a weighted GPA of 4.55, and an unweighted 3.66</p>
+         </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
-      <p>Some copyright and legal notices gere. May be use the © symbol a bit.</p>
+      <p>Matthew Rinaldi, Copyright &copy; 2017</p>
     </footer>
-  </div>
-</body>
+
+  </body>
 </html>
